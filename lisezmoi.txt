@@ -1,0 +1,42 @@
+Nom : Bourahma 
+Prénom : Aziz
+NIP : 11810431
+Groupe : SESI 13
+
+1) thème :
+
+Trois villes (sites) tourisqtiques algériennes. 
+
+2) Pour avoir choisis ce thème  :
+
+L’Algérie est un pays du Maghreb. Il est proche du continent Européen et 
+l’un des pays les plus vastes du continent, Ce pays très vite connu l’urbanisation et le développement des infrastructures 
+touristiques. 
+c’est une très bonne destination touristique pour 4 raisons essentielles :
+ - Des vestiges préhistoriques et antiques à connaître.
+ - Un relief et un paysage variés et très intéressants.
+ - Une population très hospitalière.
+
+3) les sélecteurs complexes utilisés ?
+ - div.bloc h2 + .texte:first-letter :
+   ce sélecteur sélectionne la premiére lettre de l'élement span dont la vleur de la classe est texte qui frere d'un élement h2 déscandant d'un élement div quelconque.
+   sa position est : ligne 118, feuille de style 3
+ - div span.texte3:first-letter,li:first-letter,ul:first-letter:
+   sa position est : ligne 121 feuille de style 3
+   ce sélecteur sélectionne toutes les premiéres lettres des élements li descandant d'un élement quelconque,
+
+
+4) Présententation des media-queries utlisées :
+  - @media screen and ( max-width:400px), @media screen and ( max-width:1180px):
+     Il s'agit d'un ensemble de règles CSS qui s'appliquent si la résolution de l'écran du visiteur est inférieure à 400px, réspectivement à 1180px. 
+     l'effet de ces règles :
+     - la taille des images se réduisent en réduisant la taille de la page web.
+     - Le tableau désparait.
+     - La police des titres deviennt plus petites.
+     - Le texte occupe presque la totalité de la page web, et sa police est inférieure à celle de la page dans sa taille standard.
+     - Les liens de navigation qui sont placés horizontalement sur le coté gauche dans la pade index, seront placés verticalement en réduisant la taille de la page. 
+  - @media print :
+     Il s'agit d'un ensemble de règles CSS qui s'appliquent à la Web en cas d'impression.
+     L'effet de ces règles CSS :
+     - Les images d'arriers plan désparaiessent.
+     - Les tableaux seront supprimés.
