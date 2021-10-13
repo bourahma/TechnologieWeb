@@ -1,0 +1,148 @@
+body {
+   background-color:#180303f2;
+  color: white;
+  font-family: cursive;
+  font-size: 25px;
+  text-align:center;
+  background-image:url(../images/figure08.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header h1 {
+  font-weight: bold;
+  position: relative;
+  text-align: center;
+  font-size: 60px;
+  
+}
+span {
+  padding: 2px 2px 2px 2px;
+} 
+section>header {
+  font-weight: bold;
+  font-size: 60px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  text-align: center;
+}
+img {
+  position: relative;
+  border-radius: 8px;
+  margin-top: 5%;
+  width:100%;
+  box-shadow: 0px 0px 20px 5px rgb(0, 0, 0);
+}
+#principale img{
+  position: relative;
+  border-radius: 8px;
+  width: 50%;
+}
+a{
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+a:hover {
+  font-size: 30px;
+  color:#89830d;
+}
+nav {
+  height: 70%;
+  border: 0px solid black;
+  border-radius: 8px;
+  box-shadow: 0px 0px 20px 5px rgb(0, 0, 0);
+  position: relative;
+  position: fixed;
+  text-align: center;
+  font-family: cursive;
+  font-size: 20px;
+  top: 25%;
+  left: 2%;
+  width: 16%;
+}
+section {
+  border: 0px solid black;
+  border-radius: 8px;
+  box-shadow: 0px 0px 20px 5px rgb(0, 0, 0);
+  position:absolute;
+  top: 25%;
+  left: 20%;
+  width: 60%;
+}
+
+div.image {
+  position: relative;
+  width: 32%;
+  display: inline-block;
+}
+img.hover:hover{
+ -webkit-filter: sepia(0);
+	filter: sepia(100);
+}
+div.image3{
+  position: relative;
+  width: 48%;
+  display: inline-block;
+}
+nav li {
+  margin: 50% 0% 0% 0%;
+}
+aside {
+  position: absolute;
+  position: fixed;
+  right: 2%;
+  width: 16%;
+  top: 25%;
+  border: 0px solid black;
+  border-radius: 8px;
+  box-shadow: 0px 0px 20px 5px rgb(0, 0, 0);
+  height:70%;
+}
+abbr {
+  text-decoration: none;
+  font-weight: bold;
+}
+h3:nth-of-type(n){
+  font-size: 30px;
+}
+div.bloc h2 {
+  font-size: 40px;
+}
+section>h1:first-of-type{
+  font-size: 50px;
+}
+.corps>p:first-letter {
+  font-size: 50px;
+}
+div.bloc h2 + .texte:first-letter {
+  font-size: 40px; 
+}
+div span.texte3:first-letter,li:first-letter,ul:first-letter {
+  font-size: 30px;
+}
+q::before {
+  content: "<< ";
+}
+q::after {
+  content: ">>";
+}
+nav ol {list-style: none;
+}
+div.sous-culture {
+  position: relative;
+  display: inline-table;
+  top: 2%;
+  bottom: 2%;
+  width: 47%;
+  border: 0px solid black;
+  border-radius: 8px;
+  box-shadow: 0px 0px 20px 5px rgb(0, 0, 0);
+}
+div.sous-culture img {
+  width: 60%;
+}
+h5 {
+  font-size: 25px;
+  font-weight: bold;
+}

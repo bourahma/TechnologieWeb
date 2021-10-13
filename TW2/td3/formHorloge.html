@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Horloge</title>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="" />
+        <script src="checkbox.js"></script>
+        <style>
+            form input[name='bg']:disabled{
+                color : lightgrey;
+                opacity : 0.2;
+            }
+
+            input:hover {
+              background-color: beige;
+            }
+
+            body {
+              background-color: antiquewhite;
+            }
+
+            #submit {
+              background-color: "#ECB3B3";
+              width: 100%;
+              border-radius: 10px;
+            }
+
+            #submit:hover {
+              background-color: beige;
+            }
+
+            h1 {
+              text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Formulaire Horloge</h1>
+        </header>
+        <form action="horloge.php" method="get">
+          <fieldset>
+            <legend> L'heur </legend>
+            <label for="hours"> Hour </label>
+            <input name="hours" type="number" id="hours" size="5" maxlength="10" placeholder="heur" step="1" min="1" max="12"/></br></br>
+
+            <label for="minutes"> Minutes </label>
+            <input name="minutes" type="number" id="minutes" size="5" maxlength="10" placeholder="minutes" step="1" min="0" max="59"/></br></br>
+
+            <label for="seconds"> Seconds </label>
+            <input name="seconds" id="seconds" type="number" size="5" maxlength="10" placeholder="secondes" step="1" min="0" max="59"/>
+          </fieldset> </br></br>
+
+          <fieldset>
+            <legend> Couleur des aiguilles </legend>
+            <label for="hands"> Aiguilles </label>
+            <input type="color" name="hands" id="hands" size="10" maxlength="15" placeholder="Aiguilles couleur" />
+          </fieldset> </br></br>
+
+          <fieldset>
+            <legend> Couleur des markers </legend>
+            <label for="markers"> Markers </label>
+            <input type="color" name="markers" id="markers" size="10" maxlength="15" placeholder="Markers couleur" />
+          </fieldset> </br></br>
+
+          <fieldset>
+            <legend> Couleur du fond d'horloge </legend>
+            <label for="bg"> Fon d'horloge </label>
+            <input type="color" name="bg" id="bg" /> </br></br>
+            <label for="bgcheck"> Fon d'horloge transparent </label>
+            <input type="checkbox" name="bgcheck" id="bgcheck" checked/>
+            </br></br>
+          </fieldset> </br></br>
+
+          <button type="submit" id="submit" name="valid" value="ok">Valider</button>
+        </form>
+
+    </body>
+
+</html>
